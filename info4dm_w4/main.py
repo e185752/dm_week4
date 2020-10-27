@@ -17,5 +17,7 @@ model = regression.LinearRegression()
 model.fit(X, Y)
 print(model.theta)
 
+print(model.score(X, Y))
+
 #print(model.x)
 print("ﾎﾞｸﾊﾎｹﾞﾀﾛｳ!")
